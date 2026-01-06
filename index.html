@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Independent market insight and go-to-market strategy for London Specialty Insurance technology and service providers.">
 
+  <!-- Open-source fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --text-primary: #1f2933;
@@ -17,11 +22,11 @@
 
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, "Helvetica Neue", Arial, sans-serif;
       background-color: var(--background);
       color: var(--text-primary);
       line-height: 1.7;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
     .container {
@@ -31,14 +36,15 @@
     }
 
     header {
-      margin-bottom: 28px;
+      margin-bottom: 56px;
     }
 
     h1 {
-      font-size: 2.4rem;
-      font-weight: 600;
-      margin: 0 0 12px 0;
-      letter-spacing: -0.02em;
+      font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+      font-size: 2.6rem;
+      font-weight: 400;
+      margin: 0 0 14px 0;
+      letter-spacing: -0.015em;
     }
 
     .hero-line {
@@ -46,36 +52,37 @@
       font-weight: 500;
       color: var(--accent);
       margin: 0;
+      max-width: 640px;
     }
 
     section {
       border-top: 1px solid var(--border-subtle);
-      padding-top: 28px;
+      padding-top: 36px;
     }
 
     p {
       font-size: 1.05rem;
       color: var(--text-secondary);
-      margin: 0 0 20px 0;
+      margin: 0 0 22px 0;
+      max-width: 700px;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--border-subtle);
-      margin: 18px 0;
+      margin: 52px 0;
     }
 
     .contact {
-      margin-top: 24px;
+      margin-top: 16px;
     }
 
     .contact p {
-      margin-bottom: 12px;
+      font-size: 0.95rem;
+      margin-bottom: 0;
     }
 
     .contact a {
-      display: inline-block;
-      font-size: 0.95rem;
       font-weight: 600;
       color: var(--accent);
       text-decoration: none;
@@ -91,6 +98,7 @@
       margin-top: 32px;
       font-size: 0.8rem;
       color: #6b7280;
+      max-width: 700px;
     }
 
     @media (max-width: 600px) {
@@ -99,7 +107,7 @@
       }
 
       h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
       }
 
       .hero-line {
@@ -115,13 +123,13 @@
     <header>
       <h1>Mojio & Co Ltd</h1>
       <p class="hero-line">
-        Independent, experience-led, technology & Services advisory for companies in the Lloyd's & London Specialty Insurance Market.
+        Independent, experience-led, technology & services advisory for companies in the Lloyd’s & London Specialty Insurance Market.
       </p>
     </header>
 
     <section>
       <p>
-        Mojio & Co provides independent, experience-led advisory services to technology and services providers seeking to better understand market dynamics, identify emerging opportunities, and design go-to-market strategies that resonate with Managing Agents, insurers, brokers, and MGAs in the Lloyd's & London Specialty Insurance market.
+        Mojio & Co provides independent, experience-led advisory services to technology and services providers seeking to better understand market dynamics, identify emerging opportunities, and design go-to-market strategies that resonate with Managing Agents, insurers, brokers, and MGAs in the Lloyd’s & London Specialty Insurance market.
       </p>
 
       <p>
@@ -135,13 +143,18 @@
       <hr>
 
       <div class="contact">
-        <p>If you're thinking of ways we can work together we'd love to hear from you, <a href="mailto:info@mojio.com?subject=Working with Mojio & Co">contact us</a>.</p>
+        <p>
+          If you’re thinking of ways we can work together we’d love to hear from you,
+          <a href="mailto:info@mojio.com?subject=Working with Mojio & Co">contact us</a>.
+        </p>
       </div>
 
       <hr>
 
       <footer>
-        ©2026 Mojio & Co Ltd.</br>Mojio & Co Ltd is a company registered in England and Wales company no. 16944236.</br>This site neither uses cookies nor stores personal information.
+        ©2026 Mojio & Co Ltd.<br>
+        Mojio & Co Ltd is a company registered in England and Wales (Company No. 16944236).<br>
+        This site neither uses cookies nor stores personal information.
       </footer>
 
     </section>
