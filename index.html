@@ -120,39 +120,49 @@
 <body>
   <main class="container">
 
-    <header>
+<header>
   <svg xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 520 80"
+       viewBox="0 0 520 130"
        role="img"
        aria-label="Mojio & Co Ltd"
-       style="max-width: 360px; height: auto; margin-bottom: 16px;">
+       style="max-width: 360px; height: auto; margin-bottom: 18px;">
 
     <style>
-      .wordmark-primary {
+      .primary {
         font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
-        font-size: 48px;
+        font-size: 52px;
         font-weight: 400;
         letter-spacing: -0.02em;
         fill: #1f2933;
       }
 
-      .wordmark-secondary {
+      .secondary {
         font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 400;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.06em;
         fill: #6b7280;
       }
     </style>
 
-    <text x="0" y="55" class="wordmark-primary">Mojio &amp; Co</text>
-    <text x="285" y="55" class="wordmark-secondary">Ltd</text>
+    <!-- Line 1 -->
+    <text x="0" y="55" class="primary">Mojio</text>
+
+    <!-- Line 2 -->
+    <!-- '& Co' in primary style, optically aligned under the 'o' in Mojio -->
+    <text x="34" y="110" class="primary">&amp;Co</text>
+
+    <!-- 'Ltd' in secondary style -->
+    <text x="157" y="110" class="secondary">Ltd</text>
+
   </svg>
 
   <p class="hero-line">
-    Independent, experience-led, technology & services advisory for companies in the Lloyd’s & London Specialty Insurance Market.
+    Independent, experience-led, technology &amp; services advisory for companies in the Lloyd’s &amp; London Specialty Insurance Market.
   </p>
 </header>
+
+
 
 
     <section>
@@ -172,7 +182,7 @@
 
       <div class="contact">
         <p>
-          If you’re thinking of ways we can work together we’d love to hear from you,
+          If you’re thinking we could add some value for you we’d love to hear from you,
           <a href="mailto:info@mojio.com?subject=Working with Mojio & Co">contact us</a>.
         </p>
       </div>
@@ -181,8 +191,7 @@
 
       <footer>
         ©2026 Mojio & Co Ltd.<br>
-        Mojio & Co Ltd is a company registered in England and Wales (Company No. 16944236).<br>
-        This site neither uses cookies nor stores personal information.
+        Registered in England and Wales number 16944236. This site does not use cookies or store any personal information.
       </footer>
 
     </section>
