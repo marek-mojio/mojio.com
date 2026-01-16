@@ -128,26 +128,32 @@
        style="max-width: 360px; height: auto; margin-bottom: 16px;">
 
     <style>
-      .wordmark-primary {
+      .primary {
         font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
-        font-size: 48px;
+        font-size: 52px;
         font-weight: 400;
         letter-spacing: -0.02em;
         fill: #1f2933;
       }
 
-      .wordmark-secondary {
+      .secondary {
         font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 400;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.06em;
         fill: #6b7280;
       }
     </style>
 
-    <text x="0" y="55" class="wordmark-primary">Mojio &amp; Co</text>
-    <text x="285" y="55" class="wordmark-secondary">Ltd</text>
-  </svg>
+    <!-- Line 1 -->
+    <text x="0" y="55" class="primary">Mojio</text>
+
+    <!-- Line 2 -->
+    <!-- '& Co' in primary style, optically aligned under the 'o' in Mojio -->
+    <text x="34" y="110" class="primary">&amp;Co</text>
+
+    <!-- 'Ltd' in secondary style -->
+    <text x="157" y="110" class="secondary">Ltd</text>
 
   <p class="hero-line">
     Independent, experience-led, technology & services advisory for companies in the Lloyd’s & London Specialty Insurance Market.
